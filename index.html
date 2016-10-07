@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Moving Companion</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+    <div id="w3-container" class="w3-container w3-display-middle">
+    <div id="search">
+    <h2 id="greeting" class="greeting">where do you want to live?</h2>
+    <hr>
+    <form id="form-container" class="form-container">
+        <input placeholder="Street" type="text" id="street" value="">
+        <input placeholder="City" type="text" id="city" value="">
+        <button id="submit-btn" class="w3-btn w3-round-small">Submit</button></br>
+    </form>
+    <button id="view" onclick="document.getElementById('id01').style.display='block'" class="w3-btn">View Google Image</button>
+    </div>
+    <div id="main">
+
+
+    <div class="wikipedia-container">
+        <h3 id="wikipedia-header">Wikipedia Links</h3>
+        <ul id="wikipedia-links">Type in an address above and find relevant Wikipedia articles here!</ul>
+    </div>
+
+
+    <div class="nytimes-container">
+        <h3 id="nytimes-header">New York Times Articles</h3>
+        <ul id="nytimes-articles" class="article-list">What's going on in your new city? Enter an address and hit submit and the NY Times will tell you here!</ul>
+    </div>
+</div>
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <header id="modal-header2" class="w3-container w3-teal">
+        <span onclick="document.getElementById('id01').style.display='none'"
+        class="w3-closebtn">&times;</span>
+        <h3 id="modal-header"></h3>
+      </header>
+        <div id="picture"></div>
+    </div>
+    </div>
+  </div>
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

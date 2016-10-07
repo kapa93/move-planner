@@ -1,0 +1,96 @@
+* {box-sizing:border-box;}
+body {
+}
+
+#w3-container {
+    width: 1000px;
+    height: auto;
+}
+
+#main {
+    height: 500px;
+    overflow: scroll;
+    margin: auto;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    border-top: none;
+    background-color: rgba(231,231,231,0.7);
+}
+
+#submit-btn {
+    margin-bottom: 3px;
+    margin-left: 5px;
+}
+
+#search {
+    background-color: #8BE8CB;
+    padding-bottom: 18px;
+    border: solid;
+    border-width: 2px;
+    border-bottom: none;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.bgimg {
+    width: 900px;
+    height: 570px;
+    z-index:-1;
+    opacity:1;
+    margin: 0;
+}
+
+.greeting {
+    color:black;
+    text-shadow: 1px 1px 3px rgba(255,255,255, .5);
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.wikipedia-container {
+    float:right;
+    width:290px;
+    padding:10px;
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+#wikipedia-header {
+    margin-left: 35px;
+}
+
+.w3-modal {
+    width: 850px;
+    padding: 0;
+}
+
+#modal-header2 {
+    margin-top: -60px;
+}
+
+#view {
+    margin-top: 10px;
+    margin-left: 40%;
+}
+
+.nytimes-container {
+    padding: 10px;
+    margin-right:300px;
+}
+
+.article-list {
+    margin: 0;
+    padding: 0;
+}
+
+.article {
+    list-style-type: none;
+    padding:10px;
+    border-top: 1px solid #CCC;
+}
+.article:first-child {
+    border-top:none;
+}
